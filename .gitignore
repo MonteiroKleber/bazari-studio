@@ -1,0 +1,28 @@
+# node / monorepo
+node_modules/
+.pnpm-store/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.yarn/*
+.yarnrc.yml
+# builds
+dist/
+build/
+.next/
+.cache/
+coverage/
+# apps
+apps/*/node_modules/
+apps/*/dist/
+apps/*/build/
+# env/secrets
+.env
+.env.*
+apps/*/.env
+apps/*/.env.*
+# tooling
+.vscode/
+.idea/
+.DS_Store
+*.zip
